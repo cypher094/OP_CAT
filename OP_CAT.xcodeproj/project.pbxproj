@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		B4AF488E2B5D59990097BAC1 /* OP_CATApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF488D2B5D59990097BAC1 /* OP_CATApp.swift */; };
-		B4AF48902B5D59990097BAC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF488F2B5D59990097BAC1 /* ContentView.swift */; };
+		B4AF48902B5D59990097BAC1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF488F2B5D59990097BAC1 /* HomeView.swift */; };
 		B4AF48922B5D599B0097BAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4AF48912B5D599B0097BAC1 /* Assets.xcassets */; };
 		B4AF48952B5D599B0097BAC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4AF48942B5D599B0097BAC1 /* Preview Assets.xcassets */; };
+		B4AF489C2B5D5B070097BAC1 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF489B2B5D5B070097BAC1 /* InfoView.swift */; };
+		B4AF489E2B5D5B2B0097BAC1 /* LinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF489D2B5D5B2B0097BAC1 /* LinksView.swift */; };
+		B4AF48A02B5D5B5D0097BAC1 /* MintNFTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF489F2B5D5B5D0097BAC1 /* MintNFTView.swift */; };
+		B4AF48A22B5D5B850097BAC1 /* SortingCatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF48A12B5D5B850097BAC1 /* SortingCatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B4AF488A2B5D59990097BAC1 /* OP_CAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OP_CAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AF488D2B5D59990097BAC1 /* OP_CATApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OP_CATApp.swift; sourceTree = "<group>"; };
-		B4AF488F2B5D59990097BAC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4AF488F2B5D59990097BAC1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B4AF48912B5D599B0097BAC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4AF48942B5D599B0097BAC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4AF489B2B5D5B070097BAC1 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		B4AF489D2B5D5B2B0097BAC1 /* LinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksView.swift; sourceTree = "<group>"; };
+		B4AF489F2B5D5B5D0097BAC1 /* MintNFTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintNFTView.swift; sourceTree = "<group>"; };
+		B4AF48A12B5D5B850097BAC1 /* SortingCatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingCatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				B4AF488D2B5D59990097BAC1 /* OP_CATApp.swift */,
-				B4AF488F2B5D59990097BAC1 /* ContentView.swift */,
+				B4AF488F2B5D59990097BAC1 /* HomeView.swift */,
+				B4AF489B2B5D5B070097BAC1 /* InfoView.swift */,
+				B4AF48A12B5D5B850097BAC1 /* SortingCatView.swift */,
+				B4AF489F2B5D5B5D0097BAC1 /* MintNFTView.swift */,
+				B4AF489D2B5D5B2B0097BAC1 /* LinksView.swift */,
 				B4AF48912B5D599B0097BAC1 /* Assets.xcassets */,
 				B4AF48932B5D599B0097BAC1 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4AF48902B5D59990097BAC1 /* ContentView.swift in Sources */,
+				B4AF48902B5D59990097BAC1 /* HomeView.swift in Sources */,
+				B4AF489C2B5D5B070097BAC1 /* InfoView.swift in Sources */,
+				B4AF48A02B5D5B5D0097BAC1 /* MintNFTView.swift in Sources */,
+				B4AF489E2B5D5B2B0097BAC1 /* LinksView.swift in Sources */,
+				B4AF48A22B5D5B850097BAC1 /* SortingCatView.swift in Sources */,
 				B4AF488E2B5D59990097BAC1 /* OP_CATApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
